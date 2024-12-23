@@ -1,0 +1,34 @@
+{
+  "name": "masarforms",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@jridgewell/gen-mapping": "^0.3.8",
+    "@react-icons/all-files": "^4.1.0",
+    "framer-motion": "^11.14.4",
+    "jquery": "^3.7.1",
+    "masarforms": "file:",
+    "next": "15.0.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.4.0",
+    "react-vertical-timeline-component": "^3.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "20.17.10",
+    "@types/react": "19.0.2",
+    "@types/react-dom": "^19",
+    "@types/react-vertical-timeline-component": "^3.3.6",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "5.7.2"
+  }
+}
