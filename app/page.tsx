@@ -4,6 +4,7 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Objectives from "./components/Objectives";
+import Formbutton from "./components/Formbutton";
 
 export default function Home() {
   const { scrollYProgress } = useScroll();
@@ -19,7 +20,9 @@ export default function Home() {
       <Header />
       <About />
       <Objectives />
+      <Formbutton />
       <Footer />
+      
     </div>
   );
 }

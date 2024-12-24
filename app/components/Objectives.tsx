@@ -19,7 +19,7 @@ import { MdOutlineVideoCameraFront } from "react-icons/md";
 
 const Objectives = () => {
     return (
-        <section className="py-20 bg-white px-6" id="objectives">
+        <section className="py-19 bg-white px-6" id="objectives">
             <div className=" mx-auto text-center">
                 <motion.h2
                     className="text-2xl sm:text-3xl font-bold text-[#36A1BC] mb-12"
@@ -27,6 +27,7 @@ const Objectives = () => {
                     animate={{ opacity: 1 }}
                     transition={{ duration: 1 }}
                 >
+                    <br />
                     إدارات مبادرة مسار
                 </motion.h2>
                 {/* <div className="py-20 px-6">

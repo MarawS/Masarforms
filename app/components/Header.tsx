@@ -23,7 +23,7 @@ const Header = () => {
 
     return (
         <header
-            className={`flex items-center w-full py-3 px-4 sm:px-10 bg-transparent absolute top-0 z-50 transition-all duration-300 ease-in-out`}
+            className={`flex items-center w-full py-3 px-4 sm:px-10 bg-transparent absolute top-0 z-70 transition-all duration-300 ease-in-out`}
         >
 
             <div className="relative w-full">
